@@ -48,7 +48,7 @@ h2{
 .expireace-area{
     background-image: url(img/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: left center;
 }
 .expireace-web-aria{
     width: 45%;
@@ -56,10 +56,18 @@ h2{
     margin-right: 5%;
     box-shadow: 10px 10px 18px gray;
     padding-left: 20px;
+    height: 350px;
 }
 #full-stak-aria{
-
+    border-left: solid 5px;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 4;
 }
 #baby-aria{
-
+    border-left: solid 5px;
+    border-image: linear-gradient(blue, cyan );
+    border-image-slice: 4;
+}
+footer p{
+    text-align: center;
 }
